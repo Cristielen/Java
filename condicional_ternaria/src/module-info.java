@@ -1,0 +1,2 @@
+module condicional_ternaria {
+}
