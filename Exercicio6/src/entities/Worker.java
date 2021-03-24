@@ -67,7 +67,7 @@ public class Worker {
 	}
 
 	public void removeContract(HourContract contract) {
-		contracts.remove(contract);
+		((List<HourContract>) contracts).remove(contract);
 	}
 
 	public double income(int year, int month) {
